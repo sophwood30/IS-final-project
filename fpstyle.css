@@ -1,43 +1,65 @@
-body {
-    background-color: #f8f9fa; /* Light grey background */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  h1 {
-    color: #343a40; /* Dark grey text */
-    font-weight: bold;
-  }
-  
-  p {
-    font-size: 1.1rem;
-    color: #555;
-  }
-  
-  .navbar-brand {
-    font-weight: bold;
-  }
-  
-  .nav-link {
-    color: #ffffff !important;
-  }
-  
-  .nav-link:hover {
-    text-decoration: underline;
-  }
-  header {
-    background-color: pink;
+.btn-pink {
+    background-color: #ff69b4;
     color: white;
-    padding: 100px 0;
+    border: none;
+  }
+  
+  .btn-pink:hover {
+    background-color: #ff1493;
+  }
+  /* Font and general body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styling */
+  .header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  /* Section under the header */
+  .hero {
+    background-color: #ffc0cb; /* light pink */
+    padding: 60px 20px;
     text-align: center;
   }
-  header.masthead {
-    background-color: pink;
-    padding: 100px 0;
-    color: white;
+  
+  /* Services block */
+  .services {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
   }
-  header.masthead {
-    background-color: #ffffff; /* this is the blue color */
-    padding: 100px 0;
+  
+  .service-box {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  /* Custom pink button */
+  .btn-pink {
+    background-color: #ff69b4;
     color: white;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-pink:hover {
+    background-color: #ff1493;
   }
   
