@@ -1,0 +1,43 @@
+body {
+    background-color: #f8f9fa; /* Light grey background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1 {
+    color: #343a40; /* Dark grey text */
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #ffffff !important;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  header {
+    background-color: pink;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+  }
+  header.masthead {
+    background-color: pink;
+    padding: 100px 0;
+    color: white;
+  }
+  header.masthead {
+    background-color: #ffffff; /* this is the blue color */
+    padding: 100px 0;
+    color: white;
+  }
+  
